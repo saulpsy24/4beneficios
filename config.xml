@@ -6,10 +6,10 @@
         versionCode = "3600"
         android-versionCode="3600"
         version   = "3.6.00">
-    <name>CONAMAT</name>
+    <name>4Beneficios</name>
 
     <description>
-        Aplicación oficial de 4Beneficios Matem{aticas Simplificadas
+        Aplicación oficial de 4Beneficios Matematicas Simplificadas
     </description>
 
     <author href="http://disolutionsmx.com" email="saul.ramirez@disolutionsmx.com">
@@ -158,7 +158,7 @@
         <param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='CONAMAT']" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='4Beneficios']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
 
